@@ -1,0 +1,40 @@
+.ReadMoreLess-button {
+	background: none;
+	color: var(--primary);
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+	font-weight: 500;
+	align-self: flex-start;
+}
+
+.read-more-less {
+	position: relative;
+	overflow: hidden;
+}
+
+.read-more {
+	max-height: 100%;
+}
+.read-less {
+	max-height: var(--maxHeight);
+}
+
+/* .read-more-less:is(.active)::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 45px 0;
+	background-image: linear-gradient(to bottom, transparent, white);
+} */
+
+.read-more-less img {
+	max-width: 100%;
+	cursor: pointer;
+}

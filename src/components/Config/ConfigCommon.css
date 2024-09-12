@@ -1,0 +1,190 @@
+.config {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 8px 14px;
+	align-items: center;
+	gap: 8px;
+}
+
+label {
+	font-size: 16px;
+	font-weight: 500;
+	color: #1d1d1d;
+}
+.config:not(:last-child) {
+	border-bottom: 2px solid #e0e0e0;
+}
+
+.configItem {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	gap: 28px;
+	padding: 8px;
+}
+
+.configInput {
+	border-radius: 6px;
+	padding: 4px 12px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.space {
+	width: 100%;
+	height: 1px;
+	background-color: #e0e0e0;
+	margin: 8px 0px;
+}
+/* Firefox */
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+.split {
+	display: flex;
+	flex-direction: row;
+}
+
+.gutter {
+	background-color: #eee;
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+
+.gutter.gutter-horizontal {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAAIklEQVQoU2M4c+bMfxAGAgYYmwGrIIiDjrELjpo5aiZeMwF+yNnOs5KSvgAAAABJRU5ErkJggg==");
+	cursor: col-resize;
+}
+.question {
+	outline: 1px solid #ededf0;
+	border-radius: 6px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 8px 12px;
+}
+
+.beyond-chats-widget-container {
+	width: 100%;
+	height: 100%;
+	padding: 8px 12px;
+	padding-right: 0px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	overflow: hidden;
+}
+.wc-body {
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+	overflow: hidden;
+}
+.wc-iframe,
+.wc-body {
+	width: 100%;
+	height: 100%;
+}
+
+.wc-btn {
+	width: max-content;
+	margin: 8px auto !important;
+	display: flex;
+	padding: 6px 16px !important;
+}
+/*
+  window controls
+*/
+.wc-header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	gap: 8px;
+	position: relative;
+	height: 36px;
+}
+.wc-header input {
+	width: 100%;
+	cursor: pointer;
+	margin: 0 auto;
+	color: var(--color6);
+	padding: 16px 12px !important;
+	border-radius: 6px;
+	/* border: 1px solid #CCCCCC; */
+}
+.wc-header svg {
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+	fill: #333333;
+}
+
+.wc-box div {
+	position: relative;
+	float: left;
+	width: 30px;
+	height: 30px;
+}
+
+.wc-box div:before,
+.wc-box div:after {
+	top: 30%;
+	right: 30%;
+	bottom: 30%;
+	left: 30%;
+	content: " ";
+	position: absolute;
+	border-color: #cccccc;
+	border-style: solid;
+	border-width: 0 0 2px 0;
+}
+
+.wc-box .minimize:before {
+	border-bottom-width: 2px;
+}
+
+.wc-box .maximize:before {
+	border-width: 1px 1px 2px 1px;
+}
+
+.wc-box .close:before,
+.wc-box .close:after {
+	bottom: 50%;
+	top: 50%;
+}
+
+.wc-box .close:before {
+	transform: rotate(45deg);
+}
+
+.wc-box .close:after {
+	transform: rotate(-45deg);
+}
+
+.wc-box div:hover {
+	background-color: #cccccc;
+}
+
+.wc-box .close:hover {
+	background-color: #e04343;
+}
+
+.wc-box div:hover:after,
+.wc-box div:hover:before {
+	border-color: #333333;
+}
+
+.wc-box .close:hover:after,
+.wc-box .close:hover:before {
+	border-color: #ffffff;
+}

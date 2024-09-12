@@ -1,0 +1,143 @@
+.navbar {
+	padding: 0 20px;
+	background: #ffffff;
+	box-shadow: 0 0 10px 1px #0003;
+	border-bottom: 1px solid #0003;
+	display: flex;
+	position: sticky;
+	top: 0px;
+	z-index: 102;
+	align-items: center;
+	height: 65px;
+	justify-content: space-between;
+}
+.navbar.logged_in {
+	/* 100vw - width of small left drawer, also see LeftDrawer in Routes */
+	width: calc(100vw - 64px);
+	left: 64px;
+}
+.nav-relative {
+	position: relative;
+}
+.navbar-profile-image {
+	margin: auto;
+	border-radius: 50%;
+	height: 25px;
+	width: 25px;
+	/* border: 0.1em solid var(--primary); */
+	box-sizing: border-box;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.nav-profile {
+	/* min-width: 210px; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Nav {
+	justify-content: center;
+	flex-direction: column;
+	transition: 0.2s ease-in-out;
+	display: flex;
+	border-radius: 0 22px 22px 0;
+	position: relative;
+}
+.respNav {
+	cursor: pointer;
+	display: none;
+}
+
+@media (max-width: 720px) {
+	.respNav {
+		display: flex;
+	}
+}
+
+.profileNavBtn {
+	display: none;
+	flex-direction: row;
+	cursor: pointer;
+	transition: 0.2s;
+	display: none;
+	/* margin: auto 0.5em; */
+	border-radius: 5px;
+}
+.profile-nav-grid {
+	border-radius: 50%;
+	padding: 0.15em 0.15em;
+}
+.displayNone {
+	display: none;
+}
+
+.DesktopProfileViewer {
+	border-radius: 10px !important;
+	padding: 6px !important;
+	background-color: white;
+	box-shadow: 0px 16px 22px rgba(0, 0, 0, 0.25);
+}
+.DesktopProfileViewer.displayNone {
+	display: none;
+}
+.nav-hr {
+	margin: 0 10px;
+}
+
+.Nav-div {
+	display: flex;
+	/* flex: 1; */
+}
+
+@media (max-width: 768px) {
+	.navbar {
+		position: relative;
+	}
+}
+
+@media (max-width: 720px) {
+	.Nav {
+		display: none;
+	}
+
+	.nav-logo {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 721px) {
+	.DesktopProfileViewer {
+		position: fixed;
+		top: 51px;
+		right: 10px;
+		display: block;
+		background: white;
+		box-shadow: 0 5px 10px 1px #0003;
+		border-radius: 0 0 0 5px;
+		font-size: 1.2em;
+		z-index: 102;
+	}
+	.profileNavBtn {
+		display: flex;
+	}
+}
+
+@media only screen and (max-width: 968px) {
+	.navbar {
+		padding: 0.4em 10px;
+	}
+}
+
+.nav-profile {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	/* color: #f1edff; */
+}

@@ -1,0 +1,36 @@
+.innerChatContainer {
+	display: flex;
+	overflow: auto;
+	height: calc(100% - 65px);
+	flex-direction: column;
+	background: var(--chat-bg);
+  gap: 10px;
+	padding: 10px;
+}
+.innerChatContainer.enable_live_chat {
+	/* height: calc(100% - 170px); */
+	height: 100%;
+}
+.chatContainerInner {
+	display: flex;
+	flex-direction: column-reverse;
+	gap: 10px;
+	padding: 10px;
+}
+
+@media (max-width: 600px) {
+	.innerChatContainer {
+		height: calc(100% - 50px);
+	}
+}
+
+.noChatContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	padding: 1rem;
+	width: 100%;
+	height: 100%;
+}

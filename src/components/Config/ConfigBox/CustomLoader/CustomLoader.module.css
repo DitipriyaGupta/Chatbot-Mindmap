@@ -1,0 +1,7 @@
+.loader {
+	outline: 2px solid #ededf0;
+	border-radius: 12px;
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+}

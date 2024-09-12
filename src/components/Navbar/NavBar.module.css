@@ -1,0 +1,25 @@
+.navbar {
+	padding: 0 20px;
+	background: #ffffff;
+	box-shadow: 0 0 10px 1px #0003;
+	border-bottom: 1px solid #0003;
+	height: 65px;
+}
+.navbar.logged_in {
+	/* 100vw - width of small left drawer, also see LeftDrawer in Routes */
+	width: calc(100vw - 64px);
+	left: 64px;
+}
+.displayNone {
+	display: none;
+}
+@media (max-width: 600px) {
+	.navbar {
+		height: 56px;
+	}
+	.navbar.logged_in {
+		/* 100vw - width of small left drawer, also see LeftDrawer in Routes */
+		width: calc(100vw - 56px);
+		left: 56px;
+	}
+}

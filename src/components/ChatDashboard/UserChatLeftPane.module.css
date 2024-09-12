@@ -1,0 +1,33 @@
+.LeftChatContainer {
+	transition: all 0.2s;
+	max-width: 360px;
+	width: 40%;
+	min-height: 350px;
+	background: var(--white);
+	height: 100%;
+	font-size: 14px;
+	background: #ffffff;
+	box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.38);
+	border-radius: 8px;
+	padding-top: 5px;
+	height: calc(100vh - 67px);
+	padding: 0.5em 0;
+	padding-bottom: 0;
+}
+@media (max-width: 600px) {
+	.LeftChatContainer {
+		width: 100%;
+		max-width: unset;
+	}
+}
+
+.all_chats {
+	/* height: calc(100vh - 144px); */
+	height: calc(100% - 72px);
+	/* overflow: scroll; */
+	/* height: 100%; */
+	min-height: 265px;
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}

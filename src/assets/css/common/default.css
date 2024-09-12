@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+	/* scroll-behavior: smooth; */
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+body .MuiPopover-root {
+	height: 100% !important;
+	overflow-x: scroll !important;
+	width: auto !important;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+h3,
+h4 {
+	font-weight: 600;
+}
+h2 {
+	font-weight: 500;
+}
+input {
+	outline: none;
+}
+/* button {
+  transition: all 0.3s;
+}
+button:hover {
+  transform: scale(1.04);
+} */
+
+body {
+	/* top: 0 !important; */
+	/* overflow-x: hidden; */
+	--white: #fff;
+	--black: #1d1d1d;
+
+	--primary: #2872fa;
+	--primary-light: #e3f2ff;
+	--primary-dark: #333bc7;
+
+	--secondary: #98004c;
+	--secondary-light: #ffe3eb;
+	--secondary-main: #fa2871;
+
+	--color4: #ff0000;
+	--color5: #1d1d1d;
+	--color6: #686868;
+	--lightest: #afadad;
+	--background: #f1edff;
+	--gray: #ecf0f1;
+	--ck-z-default: 1300;
+	--ck-z-modal: calc(var(--ck-z-default) + 999);
+	background-color: var(--white);
+	--be-chat-bg-dark: #202c33;
+	--user-chat-bg-dark: #005c4b;
+	--text-primary-dark: #e9edef;
+	--primary-muted: #667781;
+	--be-chat-bg: #d9fdd3;
+	--user-chat-bg: #fff;
+	--be-background-deeper: #d1f4cc;
+	--text-primary: #3b4a54;
+	--text-primary-strong: #111b21;
+	--chat-bg: #eaeef3;
+	--rich-text-panel-background: #f0f2f5;
+}
+
+.swal-overlay {
+	z-index: 999999999 !important;
+}
+/* SWAL Button Container */
+div:where(.swal2-container) div:where(.swal2-actions) {
+	margin: 1.25em 0px 0px 0px;
+	justify-content: flex-start;
+	flex-direction: row-reverse;
+}
+/* SWAL Cancel Button */
+div:where(.swal2-container) button:where(.swal2-styled).swal2-cancel,
+div:where(.swal2-container) button:where(.swal2-styled).swal2-cancel:focus {
+	color: var(--secondary-main);
+	border: 1px solid var(--secondary-main);
+	border-radius: 4px;
+}
+/* SWAL Confirm Button */
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm,
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm:focus {
+	color: white;
+	background-color: var(--primary);
+	border-radius: 4px;
+}
+
+/* SWAL Backdrop */
+div:where(.swal2-container) {
+	z-index: 1300;
+}
+::-webkit-scrollbar {
+	width: 4px;
+	background: transparent;
+	height: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--primary);
+	border-radius: 10px;
+}
+.blurred-row {
+	filter: blur(10px);
+	pointer-events: none;
+}

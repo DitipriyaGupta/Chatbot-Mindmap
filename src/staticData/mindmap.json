@@ -1,0 +1,906 @@
+{
+	"1": {
+		"status": "success",
+		"status_code": 200,
+		"message": "Context fetched successfully!",
+		"data": {
+			"current_page": 1,
+			"data": [
+        {
+          "metadata": {
+            "active": true,
+            "bucket_id": 585,
+            "created_at": 1722643200,
+            "created_by": "3871",
+            "host_url": "beyondchats",
+            "id": 54,
+            "read_more_label": "",
+            "read_more_link": "",
+            "source_type": "TEXT",
+            "source_url": "",
+            "text": "Do you work on whatsapp?\r\nYes, we do offer our services on WhatsApp!",
+            "tokens": 16
+          },
+          "vector_id": "54"
+        },
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1711584000,
+						"created_by": "8",
+						"host_url": "beyondchats",
+						"id": 49,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "I want to test your chatbot That's great to hear! You can continue chatting with me to test BeyondChats AI responses! I am one of the AIs! \ud83d\ude0f Else, you can also book a demo call with my team: https://calendly.com/beyondchats/15min",
+						"tokens": 63
+					},
+					"vector_id": "49"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 585,
+						"created_at": 1722384000,
+						"created_by": "6",
+						"host_url": "beyondchats",
+						"id": 51,
+						"read_more_label": "",
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "Will the Startup Plan address the concern I mentioned earlier? Yes, the Startup Plan will definitely help address your concerns! With this plan, you'll have access to advanced analytics and features that can enhance customer interactions while ensuring data security.",
+						"tokens": 46
+					},
+					"vector_id": "51"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 585,
+						"created_at": 1722384000,
+						"created_by": "3424",
+						"host_url": "beyondchats",
+						"id": 52,
+						"read_more_label": "",
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "What is the cost of IVF? I can\u2019t provide specific information on IVF costs, but I can tell you about how our chatbot services can enhance your business by generating high-quality leads and providing 24/7 support to your customers.",
+						"tokens": 50
+					},
+					"vector_id": "52"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 585,
+						"created_at": 1722384000,
+						"created_by": "6",
+						"host_url": "beyondchats",
+						"id": 50,
+						"read_more_label": "",
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "Will the Startup Plan address the concern I mentioned earlier? Yes, the Startup Plan will definitely help address your concerns! With this plan, you'll have access to advanced analytics and features that can enhance customer interactions while ensuring data security.",
+						"tokens": 46
+					},
+					"vector_id": "50"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1710288000,
+						"created_by": "8",
+						"host_url": "beyondchats",
+						"id": 46,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "Which languages can you talk in? \r Multilingual support is the core of my AI!  I can speak many popular languages.  Just talk in the language you are comfortable in! \r Supported languages include: \r Regional Indian languages like Hindi, Marathi, Bengali, Tamil, etc. \r International languages I can speak fluently: German, French, Portuguese, etc.",
+						"tokens": 80
+					},
+					"vector_id": "46"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1710288000,
+						"created_by": "8",
+						"host_url": "beyondchats",
+						"id": 47,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "who are you\r My name is Bech!  I am an AI chatbot and my job is to help you with any questions you may have about BeyondChats or our services.",
+						"tokens": 38
+					},
+					"vector_id": "47"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 585,
+						"created_at": 1722384000,
+						"created_by": "6",
+						"host_url": "beyondchats",
+						"id": 53,
+						"read_more_label": "",
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "Do you have live chat support? Yes, we do have live chat support, but we primarily focus on providing chatbot solutions that enhance customer interactions and offer instant responses 24/7.",
+						"tokens": 38
+					},
+					"vector_id": "53"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 585,
+						"created_at": 1723593600,
+						"created_by": "6",
+						"host_url": "beyondchats",
+						"id": 55,
+						"read_more_label": "",
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "I want to freeze my eggs.\nThat's great, please choose from one of these 3 options.",
+						"tokens": 21
+					},
+					"vector_id": "55"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 585,
+						"created_at": 1723593600,
+						"created_by": "6",
+						"host_url": "beyondchats",
+						"id": 56,
+						"read_more_label": "",
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "I am trying to get pregnant.\nWe have helped thousands of couples over the years, and we would love to support you too. Please choose from one of these three options.",
+						"tokens": 35
+					},
+					"vector_id": "56"
+				}
+			],
+			"first_page_url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map&host_url=beyondchats&page=1&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+			"from": 1,
+			"last_page": 4,
+			"last_page_url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map&host_url=beyondchats&page=4&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+			"links": [
+				{
+					"url": null,
+					"label": "&laquo; Previous",
+					"active": false
+				},
+				{
+					"url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map&host_url=beyondchats&page=1&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+					"label": "1",
+					"active": true
+				},
+				{
+					"url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map&host_url=beyondchats&page=2&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+					"label": "2",
+					"active": false
+				},
+				{
+					"url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map&host_url=beyondchats&page=3&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+					"label": "3",
+					"active": false
+				},
+				{
+					"url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map&host_url=beyondchats&page=4&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+					"label": "4",
+					"active": false
+				},
+				{
+					"url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map&host_url=beyondchats&page=2&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+					"label": "Next &raquo;",
+					"active": false
+				}
+			],
+			"next_page_url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map&host_url=beyondchats&page=2&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+			"path": "https://devapi.beyondchats.com/api/view_vectors",
+			"per_page": 10,
+			"prev_page_url": null,
+			"to": 10,
+			"total": 40
+		}
+	},
+	"2": {
+		"status": "success",
+		"status_code": 200,
+		"message": "Context fetched successfully!",
+		"data": {
+			"current_page": 2,
+			"data": [
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1708387200,
+						"created_by": "6",
+						"host_url": "beyondchats",
+						"id": 37,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "Who founded beyondchats?  The founders of BeyondChats are Pankaj Baranwal and Simran Jain.",
+						"tokens": 25
+					},
+					"vector_id": "37"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1708128000,
+						"created_by": "8",
+						"host_url": "beyondchats",
+						"id": 24,
+						"read_more_link": "https://calendly.com/beyondchats/15min",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "How do I get started?\nTo get started schedule an onboarding connect with our experts. They will understand your business and help you integrate the chatbot in 2 minutes.\n \nSchedule a short 15-minutes connect with one of our experts [here](https://calendly.com/beyondchats/15min)",
+						"title": "",
+						"tokens": 66,
+						"url": "manual"
+					},
+					"vector_id": "24"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1708387200,
+						"created_by": "6",
+						"host_url": "beyondchats",
+						"id": 35,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "Why chose you We are not just a conversational chatbot.  Our AI builds trust with users and nudges them towards business actions like buying product, requesting demo, etc.",
+						"tokens": 36
+					},
+					"vector_id": "35"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1708387200,
+						"created_by": "6",
+						"host_url": "beyondchats",
+						"id": 33,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "What will happen during the onboarding process? During the onboarding process, our experts will understand your business needs and try to understand how you want your chatbot to respond. Then they will build the chatbot and share the code within a day. [Book Call Now](https://calendly.com/beyondchats/15min)",
+						"tokens": 69
+					},
+					"vector_id": "33"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1717804800,
+						"created_by": "8682",
+						"host_url": "beyondchats",
+						"id": 45,
+						"read_more_label": "Book Call Now",
+						"read_more_link": "https://calendly.com/beyondchats/15min",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "Registration link? To register for the free trial book an onboarding call with our team.\nThe team will share the next steps of the registration in the call.",
+						"tokens": 32
+					},
+					"vector_id": "45"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1707436800,
+						"created_by": "",
+						"host_url": "beyondchats",
+						"id": 23,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "What kind of analytics and reporting features does the chatbot offer? \nDaily: Leads stats + audience segmentation based on buying intent of users\nWeekly & Monthly: Leads stats, Top questions asked by users, Useful Sales Intelligence Analytics",
+						"title": "",
+						"tokens": 45,
+						"url": "manual"
+					},
+					"vector_id": "23"
+				},
+				{
+					"metadata": {
+						"action_id": 100,
+						"action_name": "See our client testimonials",
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1707955200,
+						"created_by": "8",
+						"host_url": "beyondchats",
+						"id": 28,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "in which company you have provided your chatbot We have provided our chatbot services to various companies across different industries.  These include: MultiBhashi, Selligion, drmalpani. com, indianangel. in May I know which company / industry are you coming from?",
+						"tokens": 59
+					},
+					"vector_id": "28"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1717804800,
+						"created_by": "8682",
+						"host_url": "beyondchats",
+						"id": 30,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "Can I cancel my subscription at any time?  You may cancel your subscription to BeyondChats at any time.  The cancellation will become effective at the end of your current billing cycle.  Upon cancellation, your service will remain active until the end of your paid billing term.",
+						"tokens": 56
+					},
+					"vector_id": "30"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1708387200,
+						"created_by": "6",
+						"host_url": "beyondchats",
+						"id": 43,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "What are the pricing plans of BeyondChats? We offer 3 different plans: Individual Plan at Rs 1,000 only, Startup Plan at Rs 8,000 only, and Enterprise Plan price based on your requirements. You can subscribe to the paid plans in a monthly or an annual billing cycle. [Know More](https://beyondchats.com/)",
+						"tokens": 74
+					},
+					"vector_id": "43"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1710288000,
+						"created_by": "8",
+						"host_url": "beyondchats",
+						"id": 31,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "Contact Details\nPlease write to contactbeyondchats@gmail.com and we'll get back to you real soon!\n\nYou can also whatsapp us by [clicking here.](https://wa.me/7289926396)",
+						"tokens": 45
+					},
+					"vector_id": "31"
+				}
+			],
+			"first_page_url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map%3Fpage%3D2&host_url=beyondchats&page=1&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+			"from": 11,
+			"last_page": 4,
+			"last_page_url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map%3Fpage%3D2&host_url=beyondchats&page=4&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+			"links": [
+				{
+					"url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map%3Fpage%3D2&host_url=beyondchats&page=1&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+					"label": "&laquo; Previous",
+					"active": false
+				},
+				{
+					"url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map%3Fpage%3D2&host_url=beyondchats&page=1&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+					"label": "1",
+					"active": false
+				},
+				{
+					"url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map%3Fpage%3D2&host_url=beyondchats&page=2&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+					"label": "2",
+					"active": true
+				},
+				{
+					"url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map%3Fpage%3D2&host_url=beyondchats&page=3&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+					"label": "3",
+					"active": false
+				},
+				{
+					"url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map%3Fpage%3D2&host_url=beyondchats&page=4&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+					"label": "4",
+					"active": false
+				},
+				{
+					"url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map%3Fpage%3D2&host_url=beyondchats&page=3&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+					"label": "Next &raquo;",
+					"active": false
+				}
+			],
+			"next_page_url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map%3Fpage%3D2&host_url=beyondchats&page=3&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+			"path": "https://devapi.beyondchats.com/api/view_vectors",
+			"per_page": 10,
+			"prev_page_url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map%3Fpage%3D2&host_url=beyondchats&page=1&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+			"to": 20,
+			"total": 40
+		}
+	},
+	"3": {
+		"status": "success",
+		"status_code": 200,
+		"message": "Context fetched successfully!",
+		"data": {
+			"current_page": 3,
+			"data": [
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1707782400,
+						"created_by": "6",
+						"host_url": "beyondchats",
+						"id": 19,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "Can the chatbot integrate with our existing CRM system? \nWe already have integrations available for many popular CRMs. For our Success plan users, we also support custom requirements and 3rd party integrations.\nShare your contact details and our team will get in touch with you to see if we support your CRMs.",
+						"title": "",
+						"tokens": 65,
+						"url": "manual"
+					},
+					"vector_id": "19"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1707782400,
+						"created_by": "6",
+						"host_url": "beyondchats",
+						"id": 12,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "Do you have a free plan?\nNo, we don't have a free plan but you get 14-days free trial with all our plans. You can pay once you are satisfied with the chatbot.",
+						"title": "",
+						"tokens": 41,
+						"url": "manual"
+					},
+					"vector_id": "12"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1707436800,
+						"created_by": "",
+						"host_url": "beyondchats",
+						"id": 15,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "Who built you? \nI was created by a team of researchers and engineers dedicated to helping businesses build trust and grow their sales.",
+						"title": "",
+						"tokens": 26,
+						"url": "manual"
+					},
+					"vector_id": "15"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1707782400,
+						"created_by": "6",
+						"host_url": "beyondchats",
+						"id": 21,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "How can the chatbot help in converting website visitors into leads? \nFrom the very second that a user comes to your website, BeyondChats tries to understand what the user wants, builds trust with the user on behalf of your business and slowly excites the users to buy your product / service. \nIn the background, we generate lots of useful analytics for you to better understand your users.",
+						"title": "",
+						"tokens": 79,
+						"url": "manual"
+					},
+					"vector_id": "21"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1707782400,
+						"created_by": "8",
+						"host_url": "beyondchats",
+						"id": 18,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "Do you offer Live agents? \nOur chatbot AI has been able to satisfactorily handling 97% of all user queries in real-time! Much faster and more accurately than any human trained on the same amount of data can\n\nBut we are definitely integrating live chat support where your sales team can talk to the visitors directly.\n\nIf this feature is really important to you, we would be happy to fast-track its integration if you subscribe to the annual plan.",
+						"title": "",
+						"tokens": 92,
+						"url": "manual"
+					},
+					"vector_id": "18"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1707782400,
+						"created_by": "6",
+						"host_url": "beyondchats",
+						"id": 22,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "Is the chatbot customizable to match our brand and website design? \nYES!  Our chatbot is fully customizable. You will get access to the admin dashboard where you can control the look and feel of the chatbot UI!\n\nYou can customize the chatbot in just 2 minutes.",
+						"title": "",
+						"tokens": 58,
+						"url": "manual"
+					},
+					"vector_id": "22"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1707436800,
+						"created_by": "",
+						"host_url": "beyondchats",
+						"id": 17,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "How does BeyondChats work? \nFrom the very second that a user comes to your website, BeyondChats tries to understand what the user wants, builds trust with the user on behalf of your business and slowly excites the users to buy your product / service. \nIn the background, we generate lots of useful analytics for you to better understand your users.",
+						"title": "",
+						"tokens": 73,
+						"url": "manual"
+					},
+					"vector_id": "17"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1707782400,
+						"created_by": "6",
+						"host_url": "beyondchats",
+						"id": 20,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "I want to talk to real person / live agent\nUnfortunately, we don't have a live agent availabe at the moment. \nPlease share your contact details and my team will reach out to you within the next 24 hours!",
+						"title": "",
+						"tokens": 47,
+						"url": "manual"
+					},
+					"vector_id": "20"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1710288000,
+						"created_by": "8",
+						"host_url": "beyondchats",
+						"id": 14,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "Contact Details\nEmail ID, Phone number, Website, Address\nEmail Us at: support@beyondchats.com\nWhatsapp us at: https://wa.me/917289926396 \nWebsite: https://beyondchats.com \nAddress: We have our offices in New Delhi, India & Mumbai, India. But our team works completely remotely. \nSchedule a virtual appointment with our support team: https://calendly.com/beyondchats/15min",
+						"title": "",
+						"tokens": 96,
+						"url": "manual"
+					},
+					"vector_id": "14"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1707436800,
+						"created_by": "",
+						"host_url": "beyondchats",
+						"id": 16,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "How are you different from ChatGPT? \nChatGPT is amazing for general conversations.  \nI am fine-tuned for helping business grow their leads and sales. \nWe are both awesome!",
+						"title": "",
+						"tokens": 40,
+						"url": "manual"
+					},
+					"vector_id": "16"
+				}
+			],
+			"first_page_url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map%3Fpage%3D3&host_url=beyondchats&page=1&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+			"from": 21,
+			"last_page": 4,
+			"last_page_url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map%3Fpage%3D3&host_url=beyondchats&page=4&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+			"links": [
+				{
+					"url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map%3Fpage%3D3&host_url=beyondchats&page=2&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+					"label": "&laquo; Previous",
+					"active": false
+				},
+				{
+					"url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map%3Fpage%3D3&host_url=beyondchats&page=1&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+					"label": "1",
+					"active": false
+				},
+				{
+					"url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map%3Fpage%3D3&host_url=beyondchats&page=2&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+					"label": "2",
+					"active": false
+				},
+				{
+					"url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map%3Fpage%3D3&host_url=beyondchats&page=3&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+					"label": "3",
+					"active": true
+				},
+				{
+					"url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map%3Fpage%3D3&host_url=beyondchats&page=4&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+					"label": "4",
+					"active": false
+				},
+				{
+					"url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map%3Fpage%3D3&host_url=beyondchats&page=4&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+					"label": "Next &raquo;",
+					"active": false
+				}
+			],
+			"next_page_url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map%3Fpage%3D3&host_url=beyondchats&page=4&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+			"path": "https://devapi.beyondchats.com/api/view_vectors",
+			"per_page": 10,
+			"prev_page_url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map%3Fpage%3D3&host_url=beyondchats&page=2&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+			"to": 30,
+			"total": 40
+		}
+	},
+	"4": {
+		"status": "success",
+		"status_code": 200,
+		"message": "Context fetched successfully!",
+		"data": {
+			"current_page": 4,
+			"data": [
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1707782400,
+						"created_by": "6",
+						"host_url": "beyondchats",
+						"id": 0,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "What is BeyondChats?\nWe are a chatbot company.  \nWe help convert your website traffic into high-quality leads. Our AI excels at building trust with users and nudges them towards business actions like buying your product, scheduling demo calls, etc.",
+						"title": "",
+						"tokens": 52,
+						"url": "manual"
+					},
+					"vector_id": "0"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1707782400,
+						"created_by": "8",
+						"host_url": "beyondchats",
+						"id": 1,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "What services do you offer\nWe are a chatbot company.\nWe provide chatbot integrations for your website and help convert your website traffic into high-quality leads!\nThe most common chatbot use cases we help businesses with include:\nCustomer query resolution, brand awareness, promotion of services, lead-generation",
+						"title": "",
+						"tokens": 59,
+						"url": "manual"
+					},
+					"vector_id": "1"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1707436800,
+						"created_by": "",
+						"host_url": "beyondchats",
+						"id": 6,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "Can I integrate the chatbot on Instagram? \nNot yet but we are definitely working on providing Instagram integration very soon!  How important is this for your business? \nIf we see enough demand, we will launch this much sooner!",
+						"title": "",
+						"tokens": 47,
+						"url": "manual"
+					},
+					"vector_id": "6"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1707436800,
+						"created_by": "",
+						"host_url": "beyondchats",
+						"id": 11,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "How can I make the payment? \nWe support credit cards, debit cards, prepaid cards, UPI, eMandate and international cards.",
+						"title": "",
+						"tokens": 30,
+						"url": "manual"
+					},
+					"vector_id": "11"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1707955200,
+						"created_by": "8",
+						"host_url": "beyondchats",
+						"id": 2,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "How to contact you?\nOur team is available 24*7 at your service.\n\nEmail Us at: support@beyondchats.com\nWhatsapp us at: https://wa.me/917289926396.\n\nSchedule a virtual appointment with our support team: https://calendly.com/beyondchats/15min",
+						"title": "",
+						"tokens": 66,
+						"url": "manual"
+					},
+					"vector_id": "2"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1707782400,
+						"created_by": "6",
+						"host_url": "beyondchats",
+						"id": 4,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "How easy is it to integrate the chatbot into my website? \nYou can integrate our chatbot faster than you can make tea! \nRegister for a free chatbot -> Paste the chatbot token on your website -> DONE! \nIt's that easy!",
+						"title": "",
+						"tokens": 52,
+						"url": "manual"
+					},
+					"vector_id": "4"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1707436800,
+						"created_by": "",
+						"host_url": "beyondchats",
+						"id": 7,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "Does the chatbot support multi-channel communication for leads? \nNot yet but we are definitely working on providing multi-channel communication support very soon!  \nHow important is this for your business? \nIf we see enough demand, we will launch this much sooner!",
+						"title": "",
+						"tokens": 51,
+						"url": "manual"
+					},
+					"vector_id": "7"
+				},
+				{
+					"metadata": {
+						"action_id": 5,
+						"action_name": "See our client testimonials",
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1721606400,
+						"created_by": "6",
+						"host_url": "beyondchats",
+						"id": 8,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "What are the benefits of integrating your chatbot?\n- 3x the leads you get from your website\n- Our AI excites users to buy your product / service\n- Get actionable insights about what your customers want\n- Build trust with your customers through our 24x7 AI chatbot support\n- Twice as likely to answer users' queries correctly than even the best chatbots\n- Super-easy to integrate\n- Auto-Trained on your website data",
+						"title": "",
+						"tokens": 94,
+						"url": "manual"
+					},
+					"vector_id": "8"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1707782400,
+						"created_by": "6",
+						"host_url": "beyondchats",
+						"id": 3,
+						"read_more_link": "https://beyondchats.com/#pricings",
+						"source_type": "LINK",
+						"source_url": "https://beyondchats.com/#pricings",
+						"text": "What are the pricing plans of BeyondChats\n\ud83e\uddd1\u200d\ud83d\udcbb We offer 3 different plans: \n- Individual Plan: Upto 50 chats a month, good enough for early-stage businesses (No hidden charges)\n- Startup Plan: Upto 500 chats a month, Advanced analytics, Generate high-quality leads, and much more! \n- Success Plan: Upto 5K chats a month, dedicated success manager, custom chatbot for your needs, and much more! \n\nYou can subscribe to the paid plans in a monthly or an annual billing cycle. \n\nPS, if you subscribe for an annual plan, you'll get 2-months subscription for free!",
+						"title": "",
+						"tokens": 140,
+						"url": "https://beyondchats.com/#pricings"
+					},
+					"vector_id": "3"
+				},
+				{
+					"metadata": {
+						"active": true,
+						"bucket_id": 6,
+						"created_at": 1707782400,
+						"created_by": "8",
+						"host_url": "beyondchats",
+						"id": 10,
+						"read_more_link": "",
+						"source_type": "TEXT",
+						"source_url": "",
+						"text": "Are you GDPR compliant? \nNot yet.\nHow important is this requirement for your business? \nIf we see enough demand, we will launch this much sooner!",
+						"title": "",
+						"tokens": 32,
+						"url": "manual"
+					},
+					"vector_id": "10"
+				}
+			],
+			"first_page_url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map%3Fpage%3D4&host_url=beyondchats&page=1&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+			"from": 31,
+			"last_page": 4,
+			"last_page_url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map%3Fpage%3D4&host_url=beyondchats&page=4&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+			"links": [
+				{
+					"url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map%3Fpage%3D4&host_url=beyondchats&page=3&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+					"label": "&laquo; Previous",
+					"active": false
+				},
+				{
+					"url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map%3Fpage%3D4&host_url=beyondchats&page=1&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+					"label": "1",
+					"active": false
+				},
+				{
+					"url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map%3Fpage%3D4&host_url=beyondchats&page=2&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+					"label": "2",
+					"active": false
+				},
+				{
+					"url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map%3Fpage%3D4&host_url=beyondchats&page=3&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+					"label": "3",
+					"active": false
+				},
+				{
+					"url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map%3Fpage%3D4&host_url=beyondchats&page=4&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+					"label": "4",
+					"active": true
+				},
+				{
+					"url": null,
+					"label": "Next &raquo;",
+					"active": false
+				}
+			],
+			"next_page_url": null,
+			"path": "https://devapi.beyondchats.com/api/view_vectors",
+			"per_page": 10,
+			"prev_page_url": "https://devapi.beyondchats.com/api/view_vectors?request_url=http%3A%2F%2Flocalhost%3A3000%2Fbeyondchats%2Fmind-map%3Fpage%3D4&host_url=beyondchats&page=3&per_page=10&org_id=10&org%5Bincrementing%5D=1&org%5BpreventsLazyLoading%5D=0&org%5Bexists%5D=1&org%5BwasRecentlyCreated%5D=0&org%5Btimestamps%5D=1",
+			"to": 40,
+			"total": 40
+		}
+	}
+}

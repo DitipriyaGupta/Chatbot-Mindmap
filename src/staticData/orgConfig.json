@@ -1,0 +1,73 @@
+{
+    "status": "success",
+    "status_code": 200,
+    "message": "Organization config fetched successfully!",
+    "data": {
+        "id": 9,
+        "title": "Support Team",
+        "welcomeText": [
+            "Hi there! Welcome to BeyondChats",
+            "What brings you here today?",
+            "Ask me anything about BeyondChats"
+        ],
+        "avatar": "https:\/\/beyondchats.s3.ap-south-1.amazonaws.com\/organization_avatar\/Beyond Chats Logo (2)_240124_155015.png",
+        "themeColor": "white",
+        "themeBackground": "#2872FA",
+        "chatBackground": "white",
+        "chatColor": "black",
+        "fontDifference": null,
+        "positionLeft": null,
+        "positionRight": 25,
+        "positionBottom": 25,
+        "showBubble": 1,
+        "askEmail": 0,
+        "loader": null,
+        "ga_id": null,
+        "created_by": 6,
+        "org_id": 10,
+        "redirect_url": "https:\/\/beyondchats.com\/pricing",
+        "created_at": "2023-12-19T10:36:18.000000Z",
+        "updated_at": "2024-08-30T10:10:59.000000Z",
+        "instant_emailers": 0,
+        "idle_user_emailers": 0,
+        "chatbot_enabled": 1,
+        "branding": 0,
+        "live_chat": 0,
+        "suggestedQuestions": [
+            {
+                "id": 209,
+                "question": "myths about fertility",
+                "action_id": 11,
+                "order": 1,
+                "related_ground_truths": []
+            },
+            {
+                "id": 210,
+                "question": "Where Can I get A IVF",
+                "action_id": 11,
+                "order": 2,
+                "related_ground_truths": []
+            },
+            {
+                "id": 211,
+                "question": "Cost of an IVF?",
+                "action_id": 11,
+                "order": 3,
+                "related_ground_truths": []
+            },
+            {
+                "id": 212,
+                "question": "Where are you located?",
+                "action_id": 11,
+                "order": 4,
+                "related_ground_truths": []
+            }
+        ],
+        "message_limit": {
+            "chat_config_id": 9,
+            "daily_messages_limit": 20,
+            "limit_message": "Your fertility questions matter. We're here to listen, answer your concerns, and guide you towards achieving your parenthood dreams. Schedule a consultation to explore your options together.",
+            "enable": 0
+        }
+    }
+}

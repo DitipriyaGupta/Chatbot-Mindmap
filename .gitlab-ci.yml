@@ -1,0 +1,22 @@
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  only:
+    - beyondexams
+  before_script:
+    - "command -v ssh-agent >/dev/null || ( apk add --update openssh )"
+    - eval $(ssh-agent -s)
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - ssh-keyscan 65.2.175.159 >> ~/.ssh/known_hosts
+    - chmod 644 ~/.ssh/known_hosts
+    - ls -lh
+    - pwd
+  script:
+    - touch gitlab-ci.txt
+    - scp -o StrictHostKeyChecking=no gitlab-ci.txt ubuntu@65.2.175.159:/home/ubuntu
+    - ssh -o StrictHostKeyChecking=no ubuntu@65.2.175.159 "cd /home/ubuntu/embed-dev && git pull"
+    - echo "Deployment Successful!"

@@ -1,0 +1,119 @@
+.chatBox {
+  word-break: break-word;
+	box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.06666666666666667);
+	padding: 0.3em 5px;
+	display: flex;
+	flex-direction: column;
+	max-width: 60%;
+	transition: all 0.15s linear;
+	overflow: hidden;
+}
+.chatBox.whatsapp {
+  gap: 15px;
+}
+
+.chatBox a {
+	text-decoration: none;
+	color: #1d1d1d;
+	text-decoration: none;
+	transition: all 0.15s linear;
+}
+.chatBox a:hover {
+	text-decoration: underline;
+}
+
+/* .chatBox:has(img){
+  max-width: 30%;
+} */
+
+.chatBox img {
+  width: 30%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.chatBoxContainer {
+	display: flex;
+}
+.btn {
+	transition: all 0.3s linear;
+}
+
+.highlighted {
+	/* filter: hue-rotate(180deg); */
+	/* border-width: 2px; */
+	/* border-style: solid; */
+	/* animation: border 2s infinite alternate linear; */
+	/* border-color: #000000; */
+	box-shadow: 0 0 0 2px #5656e1;
+}
+/* @keyframes border {
+  0% {
+    border-color: #000000;
+  }
+  100% {
+    border-color: #ffffff;
+  }
+} */
+
+/* @keyframes hue-rotate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+} */
+
+.userChat {
+	justify-content: flex-start;
+}
+.beyondChat {
+	justify-content: flex-end;
+}
+
+.userChat .chatBox {
+	border-radius: 8px 8px 8px 0;
+	background-color: var(--user-chat-bg);
+	color: var(--text-primary);
+}
+.beyondChat .chatBox {
+	border-radius: 8px 8px 0px 8px;
+	background-color: var(--be-chat-bg);
+	color: var(--text-primary);
+}
+
+.chatBox a {
+	color: inherit;
+	text-decoration: underline;
+}
+.attrArea {
+	width: 100%;
+	font-size: 0.82rem;
+	padding: 4px 8px;
+	/* padding-top: 12px; */
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 10px;
+}
+/* .highlighted .attrArea {
+  filter: hue-rotate(180deg);
+} */
+.attr {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+}
+
+@media screen and (max-width: 480px) {
+	.chatBox {
+		max-width: 80%;
+	}
+}
+@media screen and (max-width: 380px) {
+	.chatBox {
+		max-width: 86%;
+	}
+}

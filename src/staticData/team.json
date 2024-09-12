@@ -1,0 +1,69 @@
+{
+    "status": "success",
+    "status_code": 200,
+    "message": "Organization's Team fetched successfully!",
+    "data": [
+        {
+            "id": 6,
+            "name": "Shone Jogi",
+            "email": "shonejogi2000@gmail.com",
+            "role_id": 1,
+            "role_ids": [
+                1
+            ],
+            "country": null
+        },
+        {
+            "id": 3411,
+            "name": "Sai",
+            "email": "saiprasadpujari.stud@vivacollege.org",
+            "role_id": 1,
+            "role_ids": [
+                1
+            ],
+            "country": null
+        },
+        {
+            "id": 3853,
+            "name": "Siddhant Jain",
+            "email": "siddhantjain209@gmail.com",
+            "role_id": 1,
+            "role_ids": [
+                1
+            ],
+            "country": null
+        },
+        {
+            "id": 3871,
+            "name": "Kartiki Tewari",
+            "email": "kartiki45tewari@gmail.com",
+            "role_id": 1,
+            "role_ids": [
+                1
+            ],
+            "country": null
+        },
+        {
+            "id": 3424,
+            "name": "Kaushal",
+            "email": "kaushalnbt@gmail.com",
+            "role_id": 1,
+            "role_ids": [
+                1,
+                2,
+                6
+            ],
+            "country": null
+        },
+        {
+            "id": 3929,
+            "name": "Adarsh Yadav",
+            "email": "itsadarsh33@gmail.com",
+            "role_id": 1,
+            "role_ids": [
+                1
+            ],
+            "country": null
+        }
+    ]
+}
