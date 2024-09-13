@@ -210,7 +210,7 @@ const AddDataDialog = ({ openAddDialog, setOpenAddDialog, setData }) => {
 			title="Add Data"
 			onSubmit={handleSubmit(onSubmit)}
 			submitDisabled={isFile ? !selectedFiles.length : false}
-			submitButtonText="Save"
+			submitButtonText="Add"
 		>
 			<FormControl variant="standard" component="fieldset">
 				<RadioGroup
