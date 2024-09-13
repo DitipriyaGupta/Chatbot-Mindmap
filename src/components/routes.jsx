@@ -146,8 +146,8 @@ function AppRoutes() {
 				onClick: () =>
 					history.push(`/${encodeURIComponent(org.host_url)}/mind-map`),
 				tourHeading: "Chatbot Mind Map",
-				explanation:
-					"This is the brain and the memory of the chatbot. You can add, edit and analyse the source data being used to answer user queries from here",
+				// explanation:
+				// 	"This is the brain and the memory of the chatbot. You can add, edit and analyse the source data being used to answer user queries from here",
 				isActive: !!matchPath(history.location.pathname, "/:org/mind-map"),
 			},
 			{

@@ -25,7 +25,7 @@ import { useOrgContext } from "context/OrgContext";
 import { useApiCall } from "components/common/appHooks.js";
 import { usePlanContext } from "context/PlanContext";
 import InboxIcon from "@mui/icons-material/Inbox";
-import InputAdornment from '@mui/material/InputAdornment';
+import InputAdornment from "@mui/material/InputAdornment";
 import {
 	PLANS_LIMIT_REACHED,
 	PLAN_UNLIMITED,
@@ -34,8 +34,8 @@ import { useUserContext } from "context/UserContext";
 import { DialogLoader, SmallLoader } from "components/common/NewLoader";
 import { fromUnixTime } from "date-fns";
 import ReadMoreLess from "components/common/ReadMoreLess";
-import mindMapData from "staticData/mindmap.json"
-import { AccountCircle, Search } from "@mui/icons-material";
+import mindMapData from "staticData/mindmap.json";
+import { Search } from "@mui/icons-material";
 const VectorData = lazy(() => import("./VectorData"));
 const CustomNoRowsOverlay = lazy(
 	() => import("components/common/CustomNoRowsOverlay")
@@ -103,13 +103,13 @@ const useStyles = makeStyles((theme) => ({
 		justifyContent: "center",
 	},
 	customButton: {
-		color: "#6028FA", 
-		borderColor: "#6028FA", 
+		color: "#6028FA",
+		borderColor: "#6028FA",
 		"&:hover": {
-		  borderColor: "#6028FA",
-		  backgroundColor: "rgba(96, 40, 250, 0.08)" // Hover effect
-		}
-	  }
+			borderColor: "#6028FA",
+			backgroundColor: "rgba(96, 40, 250, 0.08)", // Hover effect
+		},
+	},
 }));
 
 const MindMap = () => {
@@ -420,42 +420,48 @@ const MindMap = () => {
 
 	return (
 		<>
+			<Box sx={{ml:2}}>
+				<Typography>
+					This is the brain and the memory of the chatbot.
+					<br />
+					You can add, edit and analyse the source data being used to answer
+					user queries from here
+				</Typography>
+			</Box>
 			<div className={classes.titleContainer}>
 				<Box className={classes.action_box}>
-				<form
-					onSubmit={handleSubmit(searchVectors)}
-					className={classes.search_container}
-				>
-					
-					<TextField
-						label="Search"
-						variant="outlined"
-						id="input-with-icon-textfield"
-						InputProps={{
-							startAdornment: (
-							  <InputAdornment position="start">
-								<Search/>
-							  </InputAdornment>
-							),
-							endAdornment: (
-								<InputAdornment position="end">
-								  <Button type="submit" variant="contained" sx={{ m: 1 }}>
-									Search
-								  </Button>
-								</InputAdornment>
-							  ),
-						  }}
-						error={errors?.q?.type}
-						helperText={errors?.q?.message}
-						sx={{ mt: 1 }}
-						size="big"
-						{...register("q", {
-							required: "Required",
-						})}
-					/>
-					
-				
-					{/* <TextField
+					<form
+						onSubmit={handleSubmit(searchVectors)}
+						className={classes.search_container}
+					>
+						<TextField
+							label="Search"
+							size="small"
+							variant="outlined"
+							id="input-with-icon-textfield"
+							InputProps={{
+								startAdornment: (
+									<InputAdornment position="start">
+										<Search />
+									</InputAdornment>
+								),
+								endAdornment: (
+									<InputAdornment position="end">
+										<Button type="submit" variant="contained" size="small">
+											Search
+										</Button>
+									</InputAdornment>
+								),
+							}}
+							error={errors?.q?.type}
+							helperText={errors?.q?.message}
+							sx={{ mt: 1 }}
+							{...register("q", {
+								required: "Required",
+							})}
+						/>
+
+						{/* <TextField
 						select
 						label="Results"
             defaultValue={3}
@@ -470,18 +476,17 @@ const MindMap = () => {
 						))}
 					</TextField> */}
 
-					
-					{hasSearched ? (
-						<Button
-							color="secondary"
-							variant="outlined"
-							sx={{ my: 1 }}
-							onClick={clearResults}
-						>
-							Clear Results
-						</Button>
-					) : null}
-				</form>
+						{hasSearched ? (
+							<Button
+								color="secondary"
+								variant="outlined"
+								sx={{ my: 1 }}
+								onClick={clearResults}
+							>
+								Clear Results
+							</Button>
+						) : null}
+					</form>
 					<Button
 						variant="contained"
 						color="primary"
@@ -504,7 +509,7 @@ const MindMap = () => {
 					</Button>
 					<Button
 						variant="outlined"
-						className={classes.customButton} 
+						className={classes.customButton}
 						startIcon={<QuestionAnswerIcon />}
 						onClick={handleOpenGroundTruthDialog}
 					>
@@ -526,12 +531,11 @@ const MindMap = () => {
 				</Box>
 				<hr
 					style={{
-						width: "80%",
+						width: "90%",
 						margin: "10px 0",
-						border: "0.01rem solid grey",
+						border: "1px solid grey",
 					}}
 				/>
-				
 			</div>
 
 			<Box sx={{ padding: "10px", borderRadius: "8px", height: "100%" }}>
