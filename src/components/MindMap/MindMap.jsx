@@ -77,7 +77,7 @@ const useStyles = makeStyles((theme) => ({
 		justifyContent: "center",
 		alignItems: "center",
 		flexDirection: "column",
-		margin: "16px auto",
+		margin: "20px auto",
 		maxWidth: 1200,
 	},
 	pagination: {
@@ -420,12 +420,12 @@ const MindMap = () => {
 
 	return (
 		<>
-			<Box sx={{ml:2}}>
+			<Box sx={{ml:2,mt:1}}>
 				<Typography>
 					This is the brain and the memory of the chatbot.
 					<br />
 					You can add, edit and analyse the source data being used to answer
-					user queries from here
+					user queries from here.
 				</Typography>
 			</Box>
 			<div className={classes.titleContainer}>
@@ -529,13 +529,23 @@ const MindMap = () => {
 						</Button>
 					) : null}
 				</Box>
-				<hr
+				{isSmScreen?
+				(<hr
 					style={{
 						width: "90%",
 						margin: "10px 0",
-						border: "1px solid grey",
+						border: "0.5px solid grey",
+					}}
+				/>):(
+					<hr
+					style={{
+						width: "100%",
+						margin: "10px 0",
+						border: "0.5px solid grey",
 					}}
 				/>
+				)
+				}
 			</div>
 
 			<Box sx={{ padding: "10px", borderRadius: "8px", height: "100%" }}>
